@@ -1,0 +1,745 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-07T18:53:21.688Z",
+        "line": 16,
+        "name": "To verify if user is able to perform Partial update of Booking information successfully.",
+        "description": "",
+        "id": "validating-crud-(create-update-delete-get)-apis-of-booking-applications;to-verify-if-user-is-able-to-perform-partial-update-of-booking-information-successfully.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5294481000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Partial Update Payload information \"Automated\" \"Test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Automated\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"Test\"",
+                  "offset": 47
+                }
+              ],
+              "location": "StepDefinitions.partial_update_payload_information(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1133645200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User calls  \"UpdateBookingApi\" with \"PATCH\" Http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"UpdateBookingApi\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"PATCH\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinitions.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 197000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Partial update is successful with Status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 46
+                }
+              ],
+              "location": "StepDefinitions.partial_update_is_successful_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14110000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Parameters \"firstname\" is updated as \"Automated\" in the response body",
+            "match": {
+              "arguments": [
+                {
+                  "val": "firstname",
+                  "offset": 12
+                },
+                {
+                  "val": "Automated",
+                  "offset": 38
+                }
+              ],
+              "location": "StepDefinitions.parameters_something_is_updated_as_something_in_the_response_body(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12354400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Parameters \"lastname\" is updated as \"Test\" in the response body",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lastname",
+                  "offset": 12
+                },
+                {
+                  "val": "Test",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinitions.parameters_something_is_updated_as_something_in_the_response_body(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1120404300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify Booking Id updated maps to \"Automated\" \"Test\" using \"GetBookingAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Automated\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"Test\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"GetBookingAPI\"",
+                  "offset": 59
+                }
+              ],
+              "location": "StepDefinitions.verify_booking_id_updated_maps_to_using(String,String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-07T18:53:29.269Z",
+        "line": 17,
+        "name": "To verify if user is able to perform Partial update of Booking information successfully.",
+        "description": "",
+        "id": "validating-crud-(create-update-delete-get)-apis-of-booking-applications;to-verify-if-user-is-able-to-perform-partial-update-of-booking-information-successfully.;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2245763200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Partial Update Payload information \"Dwight\" \"Schrute\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dwight\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"Schrute\"",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefinitions.partial_update_payload_information(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1089322700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User calls  \"UpdateBookingApi\" with \"PATCH\" Http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"UpdateBookingApi\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"PATCH\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinitions.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Partial update is successful with Status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 46
+                }
+              ],
+              "location": "StepDefinitions.partial_update_is_successful_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9357100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Parameters \"firstname\" is updated as \"Dwight\" in the response body",
+            "match": {
+              "arguments": [
+                {
+                  "val": "firstname",
+                  "offset": 12
+                },
+                {
+                  "val": "Dwight",
+                  "offset": 38
+                }
+              ],
+              "location": "StepDefinitions.parameters_something_is_updated_as_something_in_the_response_body(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9637700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Parameters \"lastname\" is updated as \"Schrute\" in the response body",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lastname",
+                  "offset": 12
+                },
+                {
+                  "val": "Schrute",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinitions.parameters_something_is_updated_as_something_in_the_response_body(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1098908900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify Booking Id updated maps to \"Dwight\" \"Schrute\" using \"GetBookingAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dwight\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"Schrute\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"GetBookingAPI\"",
+                  "offset": 59
+                }
+              ],
+              "location": "StepDefinitions.verify_booking_id_updated_maps_to_using(String,String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-07T18:53:33.723Z",
+        "line": 21,
+        "name": "To verify if the user is able to hit partial update api without request body since the parameters are optional",
+        "description": "",
+        "id": "validating-crud-(create-update-delete-get)-apis-of-booking-applications;to-verify-if-the-user-is-able-to-hit-partial-update-api-without-request-body-since-the-parameters-are-optional",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1078624100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Partial Update header information",
+            "match": {
+              "location": "StepDefinitions.partial_update_header_information()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1059973300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User calls  \"UpdateBookingApi\" with \"PATCH\" Http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"UpdateBookingApi\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"PATCH\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinitions.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Partial update is successful with Status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 46
+                }
+              ],
+              "location": "StepDefinitions.partial_update_is_successful_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-07T18:53:35.863Z",
+        "line": 27,
+        "name": "To verify error message if user tries to partially update the booking without  ID",
+        "description": "",
+        "id": "validating-crud-(create-update-delete-get)-apis-of-booking-applications;to-verify-error-message-if-user-tries-to-partially-update-the-booking-without--id",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1118015200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Partial Update Payload information without  Id",
+            "match": {
+              "location": "StepDefinitions.partial_update_payload_information_without_id()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1058240100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User calls  \"UpdateBookingApi\" with \"PATCH\" Http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"UpdateBookingApi\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"PATCH\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinitions.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 125200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Partial update is unsuccessful with Status code 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 48
+                }
+              ],
+              "location": "StepDefinitions.partial_update_is_unsuccessful_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-07T18:53:38.040Z",
+        "line": 33,
+        "name": "To verify error message if user tries to partially update the booking without  token",
+        "description": "",
+        "id": "validating-crud-(create-update-delete-get)-apis-of-booking-applications;to-verify-error-message-if-user-tries-to-partially-update-the-booking-without--token",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1138500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Partial Update Payload information without  token",
+            "match": {
+              "location": "StepDefinitions.partial_Update_Payload_information_without_token()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1078846800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User calls  \"UpdateBookingApi\" with \"PATCH\" Http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"UpdateBookingApi\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"PATCH\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinitions.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 128500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Partial update is unsuccessful with Status 403",
+            "match": {
+              "arguments": [
+                {
+                  "val": "403",
+                  "offset": 43
+                }
+              ],
+              "location": "StepDefinitions.partial_update_is_unsuccessful_with_status(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-07T18:53:39.121Z",
+        "line": 39,
+        "name": "To verify if User gets all booking ids without providing any parameters",
+        "description": "",
+        "id": "validating-crud-(create-update-delete-get)-apis-of-booking-applications;to-verify-if-user-gets-all-booking-ids-without-providing-any-parameters",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 990900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Get Request Specification details",
+            "match": {
+              "location": "StepDefinitions.get_request_specification_details()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1419275800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User calls  \"GetBookingAPI\" with \"GET\" Http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetBookingAPI\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinitions.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50400,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Get is successful with Status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinitions.get_is_successful_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-07T18:53:40.543Z",
+        "line": 46,
+        "name": "To verify if User gets all booking ids by providing  firstname and last name",
+        "description": "",
+        "id": "validating-crud-(create-update-delete-get)-apis-of-booking-applications;to-verify-if-user-gets-all-booking-ids-by-providing--firstname-and-last-name",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4064500,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Get Request Specification using \"firstname\" and \"last name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"firstname\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"last name\"",
+                  "offset": 48
+                }
+              ],
+              "location": "StepDefinitions.get_request_specification_using_and(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1122794000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User calls  \"GetBookingAPI\" with \"GET\" Http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetBookingAPI\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinitions.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85200,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Get is successful with Status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinitions.get_is_successful_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-07T18:53:41.671Z",
+        "line": 52,
+        "name": "To verify if User is able to  Delete  booking information successfully.",
+        "description": "",
+        "id": "validating-crud-(create-update-delete-get)-apis-of-booking-applications;to-verify-if-user-is-able-to--delete--booking-information-successfully.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1082779200,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Delete Request header information",
+            "match": {
+              "location": "StepDefinitions.delete_Request_header_information()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1029155000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "User calls  \"DeleteBookingAPI\" with \"DELETE\" Http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DeleteBookingAPI\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"DELETE\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinitions.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130500,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Delete is successful with Status code 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 38
+                }
+              ],
+              "location": "StepDefinitions.delete_is_successful_with_Status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1058978200,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "Verify if user is not able to get booking information by calling \"GetBookingAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetBookingAPI\"",
+                  "offset": 65
+                }
+              ],
+              "location": "StepDefinitions.verify_if_user_is_not_able_to_get_booking_information_by_calling(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Validating CRUD (Create Update Delete Get) APIs of booking applications",
+    "description": "",
+    "id": "validating-crud-(create-update-delete-get)-apis-of-booking-applications",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/bookingAPIs.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,613 @@
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Alok",
+    "lastname": "Nath",
+    "totalprice": 1234,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-11-11",
+        "checkout": "2021-11-11"
+    },
+    "additionalneeds": "Snacks"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 193
+Etag: W/"c1-gTw/+Nev/VcwY9NDG4VaVChy/yI"
+Date: Tue, 07 Sep 2021 18:53:24 GMT
+Via: 1.1 vegur
+
+{
+    "bookingid": 11,
+    "booking": {
+        "firstname": "Alok",
+        "lastname": "Nath",
+        "totalprice": 1234,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-11-11",
+            "checkout": "2021-11-11"
+        },
+        "additionalneeds": "Snacks"
+    }
+}
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 27
+Etag: W/"1b-DAoLisD7MeodvxOHlX6RSvJIVYc"
+Date: Tue, 07 Sep 2021 18:53:25 GMT
+Via: 1.1 vegur
+
+{
+    "token": "00e7cd73147261a"
+}
+Request method:	PATCH
+Request URI:	https://restful-booker.herokuapp.com/booking/11
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=11
+Headers:		Cookie=token=00e7cd73147261a
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Automated",
+    "lastname": "Test",
+    "totalprice": 1234,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-11-11",
+        "checkout": "2021-11-11"
+    },
+    "additionalneeds": "Snacks"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 171
+Etag: W/"ab-UHcvRsfy/ElbFgJYfCGnVxAL6ME"
+Date: Tue, 07 Sep 2021 18:53:27 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Automated",
+    "lastname": "Test",
+    "totalprice": 1234,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-11-11",
+        "checkout": "2021-11-11"
+    },
+    "additionalneeds": "Snacks"
+}
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/11
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=11
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 171
+Etag: W/"ab-UHcvRsfy/ElbFgJYfCGnVxAL6ME"
+Date: Tue, 07 Sep 2021 18:53:28 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Automated",
+    "lastname": "Test",
+    "totalprice": 1234,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-11-11",
+        "checkout": "2021-11-11"
+    },
+    "additionalneeds": "Snacks"
+}
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Alok",
+    "lastname": "Nath",
+    "totalprice": 1234,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-11-11",
+        "checkout": "2021-11-11"
+    },
+    "additionalneeds": "Snacks"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 193
+Etag: W/"c1-E5Ypl9ImC74Pe2QCKGoOpXbHSLo"
+Date: Tue, 07 Sep 2021 18:53:29 GMT
+Via: 1.1 vegur
+
+{
+    "bookingid": 12,
+    "booking": {
+        "firstname": "Alok",
+        "lastname": "Nath",
+        "totalprice": 1234,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-11-11",
+            "checkout": "2021-11-11"
+        },
+        "additionalneeds": "Snacks"
+    }
+}
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 27
+Etag: W/"1b-Tm5e+8grYj9KTqkUI4+dQaKaN7s"
+Date: Tue, 07 Sep 2021 18:53:31 GMT
+Via: 1.1 vegur
+
+{
+    "token": "1d4adbf4dbfe46a"
+}
+Request method:	PATCH
+Request URI:	https://restful-booker.herokuapp.com/booking/12
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=12
+Headers:		Cookie=token=1d4adbf4dbfe46a
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Dwight",
+    "lastname": "Schrute",
+    "totalprice": 1234,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-11-11",
+        "checkout": "2021-11-11"
+    },
+    "additionalneeds": "Snacks"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 171
+Etag: W/"ab-FrFmLt/iYTW7HmGQGwJaGrPVs58"
+Date: Tue, 07 Sep 2021 18:53:32 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Dwight",
+    "lastname": "Schrute",
+    "totalprice": 1234,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-11-11",
+        "checkout": "2021-11-11"
+    },
+    "additionalneeds": "Snacks"
+}
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/12
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=12
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 171
+Etag: W/"ab-FrFmLt/iYTW7HmGQGwJaGrPVs58"
+Date: Tue, 07 Sep 2021 18:53:33 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Dwight",
+    "lastname": "Schrute",
+    "totalprice": 1234,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-11-11",
+        "checkout": "2021-11-11"
+    },
+    "additionalneeds": "Snacks"
+}
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 27
+Etag: W/"1b-eFQTooo0pXYvvvrIwokdAB99a4U"
+Date: Tue, 07 Sep 2021 18:53:34 GMT
+Via: 1.1 vegur
+
+{
+    "token": "611a5aa835448d3"
+}
+Request method:	PATCH
+Request URI:	https://restful-booker.herokuapp.com/booking/12
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=12
+Headers:		Cookie=token=611a5aa835448d3
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 171
+Etag: W/"ab-FrFmLt/iYTW7HmGQGwJaGrPVs58"
+Date: Tue, 07 Sep 2021 18:53:35 GMT
+Via: 1.1 vegur
+
+{
+    "firstname": "Dwight",
+    "lastname": "Schrute",
+    "totalprice": 1234,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-11-11",
+        "checkout": "2021-11-11"
+    },
+    "additionalneeds": "Snacks"
+}
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 27
+Etag: W/"1b-KHN5DXq4UroDZ73DuzrPHD653XY"
+Date: Tue, 07 Sep 2021 18:53:36 GMT
+Via: 1.1 vegur
+
+{
+    "token": "50db51c5e8ddf80"
+}
+Request method:	PATCH
+Request URI:	https://restful-booker.herokuapp.com/booking/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=
+Headers:		Cookie=token=50db51c5e8ddf80
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/plain; charset=utf-8
+Content-Length: 9
+Etag: W/"9-0gXL1ngzMqISxa6S1zx3F4wtLyg"
+Date: Tue, 07 Sep 2021 18:53:37 GMT
+Via: 1.1 vegur
+
+Not Found
+Request method:	PATCH
+Request URI:	https://restful-booker.herokuapp.com/booking/12
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=12
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 403 Forbidden
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/plain; charset=utf-8
+Content-Length: 9
+Etag: W/"9-PatfYBLj4Um1qTm5zrukoLhNyPU"
+Date: Tue, 07 Sep 2021 18:53:38 GMT
+Via: 1.1 vegur
+
+Forbidden
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 196
+Etag: W/"c4-39e6Op/qiUuS6K4+sd0CZ1YPWVY"
+Date: Tue, 07 Sep 2021 18:53:40 GMT
+Via: 1.1 vegur
+
+[
+    {
+        "bookingid": 6
+    },
+    {
+        "bookingid": 10
+    },
+    {
+        "bookingid": 1
+    },
+    {
+        "bookingid": 2
+    },
+    {
+        "bookingid": 8
+    },
+    {
+        "bookingid": 4
+    },
+    {
+        "bookingid": 12
+    },
+    {
+        "bookingid": 9
+    },
+    {
+        "bookingid": 5
+    },
+    {
+        "bookingid": 11
+    },
+    {
+        "bookingid": 3
+    },
+    {
+        "bookingid": 7
+    }
+]
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/?firstname=Michael&last%20name=Scott
+Proxy:			<none>
+Request params:	<none>
+Query params:	firstname=Michael
+				last name=Scott
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Etag: W/"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w"
+Date: Tue, 07 Sep 2021 18:53:41 GMT
+Via: 1.1 vegur
+
+[
+    
+]
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth?firstname=Michael&last%20name=Scott
+Proxy:			<none>
+Request params:	<none>
+Query params:	firstname=Michael
+				last name=Scott
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 27
+Etag: W/"1b-ftKBfMWSXDqJyMxDhVwJZgF3wfs"
+Date: Tue, 07 Sep 2021 18:53:42 GMT
+Via: 1.1 vegur
+
+{
+    "token": "8f128be4f755979"
+}
+Request method:	DELETE
+Request URI:	https://restful-booker.herokuapp.com/booking/12?firstname=Michael&last%20name=Scott
+Proxy:			<none>
+Request params:	<none>
+Query params:	firstname=Michael
+				last name=Scott
+Form params:	<none>
+Path params:	id=12
+Headers:		Cookie=token=8f128be4f755979
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/plain; charset=utf-8
+Content-Length: 7
+Etag: W/"7-rM9AyJuqT6iOan/xHh+AW+7K/T8"
+Date: Tue, 07 Sep 2021 18:53:43 GMT
+Via: 1.1 vegur
+
+Created
+Request method:	GET
+Request URI:	https://restful-booker.herokuapp.com/booking/12?firstname=Michael&last%20name=Scott
+Proxy:			<none>
+Request params:	<none>
+Query params:	firstname=Michael
+				last name=Scott
+Form params:	<none>
+Path params:	id=12
+Headers:		Cookie=token=8f128be4f755979
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/plain; charset=utf-8
+Content-Length: 9
+Etag: W/"9-0gXL1ngzMqISxa6S1zx3F4wtLyg"
+Date: Tue, 07 Sep 2021 18:53:44 GMT
+Via: 1.1 vegur
+
+Not Found
