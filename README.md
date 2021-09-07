@@ -24,11 +24,13 @@ Developed by Kushal Solanki
 
 3. Implemented POJO classes for serializing and deserializing JSON Payload to increase the code readability
 
-4. Implemented logging in framework to log request and response details
+4. Parameterized data to run test with multiple datasets using cucumber example keyboard.
+ 
+5. Implemented logging in framework to log request and response details
 
-5. Execute complete framework from maven commands
+6. Execute complete framework from maven commands
 
-6. Generate Reports for Test Execution results 
+7. Generate Reports for Test Execution results 
 
 ### Note:
 Install Natural 0.9 plugins for maintaining BDD/ATDD files.
