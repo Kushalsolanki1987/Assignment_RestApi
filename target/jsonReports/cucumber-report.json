@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-09-07T18:53:21.688Z",
+        "start_timestamp": "2021-09-12T09:22:41.208Z",
         "line": 16,
         "name": "To verify if user is able to perform Partial update of Booking information successfully.",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5294481000,
+              "duration": 6111322600,
               "status": "passed"
             },
             "line": 5,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 1133645200,
+              "duration": 1134642600,
               "status": "passed"
             },
             "line": 6,
@@ -57,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 197000,
+              "duration": 3718100,
               "status": "passed"
             },
             "line": 7,
@@ -75,7 +75,7 @@
           },
           {
             "result": {
-              "duration": 14110000,
+              "duration": 15346500,
               "status": "passed"
             },
             "line": 8,
@@ -97,7 +97,7 @@
           },
           {
             "result": {
-              "duration": 12354400,
+              "duration": 10040200,
               "status": "passed"
             },
             "line": 9,
@@ -119,7 +119,7 @@
           },
           {
             "result": {
-              "duration": 1120404300,
+              "duration": 1141094200,
               "status": "passed"
             },
             "line": 10,
@@ -151,7 +151,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-07T18:53:29.269Z",
+        "start_timestamp": "2021-09-12T09:22:49.738Z",
         "line": 17,
         "name": "To verify if user is able to perform Partial update of Booking information successfully.",
         "description": "",
@@ -161,7 +161,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2245763200,
+              "duration": 2399366100,
               "status": "passed"
             },
             "line": 5,
@@ -183,7 +183,7 @@
           },
           {
             "result": {
-              "duration": 1089322700,
+              "duration": 1280450300,
               "status": "passed"
             },
             "line": 6,
@@ -205,7 +205,7 @@
           },
           {
             "result": {
-              "duration": 95200,
+              "duration": 109700,
               "status": "passed"
             },
             "line": 7,
@@ -223,7 +223,7 @@
           },
           {
             "result": {
-              "duration": 9357100,
+              "duration": 18163000,
               "status": "passed"
             },
             "line": 8,
@@ -245,7 +245,7 @@
           },
           {
             "result": {
-              "duration": 9637700,
+              "duration": 8397700,
               "status": "passed"
             },
             "line": 9,
@@ -267,7 +267,7 @@
           },
           {
             "result": {
-              "duration": 1098908900,
+              "duration": 1115535500,
               "status": "passed"
             },
             "line": 10,
@@ -299,7 +299,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-07T18:53:33.723Z",
+        "start_timestamp": "2021-09-12T09:22:54.562Z",
         "line": 21,
         "name": "To verify if the user is able to hit partial update api without request body since the parameters are optional",
         "description": "",
@@ -309,7 +309,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1078624100,
+              "duration": 1094719900,
               "status": "passed"
             },
             "line": 22,
@@ -321,7 +321,7 @@
           },
           {
             "result": {
-              "duration": 1059973300,
+              "duration": 1140275600,
               "status": "passed"
             },
             "line": 23,
@@ -343,7 +343,7 @@
           },
           {
             "result": {
-              "duration": 85200,
+              "duration": 129100,
               "status": "passed"
             },
             "line": 24,
@@ -367,7 +367,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-07T18:53:35.863Z",
+        "start_timestamp": "2021-09-12T09:22:56.798Z",
         "line": 27,
         "name": "To verify error message if user tries to partially update the booking without  ID",
         "description": "",
@@ -377,7 +377,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1118015200,
+              "duration": 1093061000,
               "status": "passed"
             },
             "line": 28,
@@ -389,7 +389,7 @@
           },
           {
             "result": {
-              "duration": 1058240100,
+              "duration": 1107033000,
               "status": "passed"
             },
             "line": 29,
@@ -411,7 +411,7 @@
           },
           {
             "result": {
-              "duration": 125200,
+              "duration": 113700,
               "status": "passed"
             },
             "line": 30,
@@ -435,7 +435,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-07T18:53:38.040Z",
+        "start_timestamp": "2021-09-12T09:22:59.001Z",
         "line": 33,
         "name": "To verify error message if user tries to partially update the booking without  token",
         "description": "",
@@ -445,7 +445,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1138500,
+              "duration": 1589100,
               "status": "passed"
             },
             "line": 34,
@@ -457,7 +457,7 @@
           },
           {
             "result": {
-              "duration": 1078846800,
+              "duration": 1132052200,
               "status": "passed"
             },
             "line": 35,
@@ -479,7 +479,7 @@
           },
           {
             "result": {
-              "duration": 128500,
+              "duration": 182600,
               "status": "passed"
             },
             "line": 36,
@@ -503,7 +503,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-07T18:53:39.121Z",
+        "start_timestamp": "2021-09-12T09:23:00.136Z",
         "line": 39,
         "name": "To verify if User gets all booking ids without providing any parameters",
         "description": "",
@@ -513,7 +513,7 @@
         "steps": [
           {
             "result": {
-              "duration": 990900,
+              "duration": 1162500,
               "status": "passed"
             },
             "line": 40,
@@ -525,7 +525,7 @@
           },
           {
             "result": {
-              "duration": 1419275800,
+              "duration": 1147465300,
               "status": "passed"
             },
             "line": 41,
@@ -547,7 +547,7 @@
           },
           {
             "result": {
-              "duration": 50400,
+              "duration": 205300,
               "status": "passed"
             },
             "line": 42,
@@ -571,7 +571,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-07T18:53:40.543Z",
+        "start_timestamp": "2021-09-12T09:23:01.287Z",
         "line": 46,
         "name": "To verify if User gets all booking ids by providing  firstname and last name",
         "description": "",
@@ -581,7 +581,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4064500,
+              "duration": 9605400,
               "status": "passed"
             },
             "line": 47,
@@ -603,7 +603,7 @@
           },
           {
             "result": {
-              "duration": 1122794000,
+              "duration": 1087495400,
               "status": "passed"
             },
             "line": 48,
@@ -625,7 +625,7 @@
           },
           {
             "result": {
-              "duration": 85200,
+              "duration": 128400,
               "status": "passed"
             },
             "line": 49,
@@ -649,7 +649,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-07T18:53:41.671Z",
+        "start_timestamp": "2021-09-12T09:23:02.386Z",
         "line": 52,
         "name": "To verify if User is able to  Delete  booking information successfully.",
         "description": "",
@@ -659,7 +659,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1082779200,
+              "duration": 1158689400,
               "status": "passed"
             },
             "line": 53,
@@ -671,7 +671,7 @@
           },
           {
             "result": {
-              "duration": 1029155000,
+              "duration": 1091013600,
               "status": "passed"
             },
             "line": 54,
@@ -693,7 +693,7 @@
           },
           {
             "result": {
-              "duration": 130500,
+              "duration": 195200,
               "status": "passed"
             },
             "line": 55,
@@ -711,7 +711,7 @@
           },
           {
             "result": {
-              "duration": 1058978200,
+              "duration": 1070346300,
               "status": "passed"
             },
             "line": 56,
